@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {NewCmpComponent} from './new-cmp/new-cmp.component';
+import { ChangeTextDirective } from './change-text.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewCmpComponent //celui-ci on a été ajouté en declarations et il sera un component «child»
+    NewCmpComponent,
+    ChangeTextDirective //celui-ci on a été ajouté en declarations et il sera un component «child»
   ],
   imports: [
     BrowserModule
