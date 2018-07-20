@@ -1,0 +1,10 @@
+.crop {
+  overflow: hidden;
+}
+div {
+  cursor: pointer;
+}
+
+.color-star{
+	color: #f1bb16f0 !important;
+}

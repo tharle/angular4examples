@@ -7,7 +7,7 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "app",
+      "prefix": "pm",
       "schematics": {},
       "architect": {
         "build": {
@@ -77,7 +77,8 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "scr/api"
             ]
           }
         },
